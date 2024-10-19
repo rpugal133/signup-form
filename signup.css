@@ -1,0 +1,58 @@
+body{
+    background:url("positive.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 200%;
+    /* background-size: contain; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+.regform{
+    width:400px;
+    background-color: rgba(0,0,0,.5);
+    margin:38px auto;
+    padding:30px 30px;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.regform h1{
+     text-align: center;
+    color:#bd5c8e;
+}
+.input input{
+    width:100%; /*This width is used to increase the width of input box[its takes entire width from their parent (div)]*/
+    font-size: 1em;/*This will increase the input box height*/
+    border:1px solid pink;
+    box-shadow:2px;
+    border-radius:10px;
+    padding:7px 30px;
+    box-sizing: border-box;/*his input box will be in correct size within the div*/
+    margin:5px 0px 10px;/*this will leave some space b/w username and input box*/
+}
+
+input:focus{
+    background-color: rgb(184, 247, 247);
+}
+.btn{
+    text-align: center;
+}
+/* this is for the Register button */
+button{
+    background-color: aquamarine;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    padding:15px 10px;
+    border-radius: 8px;
+    border:1px solid rgb(227, 160, 171);
+    box-shadow:2px;
+}
+/* this is for the radio button */
+.radio input{
+    accent-color: black;
+    transform:scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
